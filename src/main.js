@@ -1,3 +1,8 @@
+/***
+* Gabrielle Velasco
+* Rocket Modification
+* Section A
+***/
 let config = {
     type: Phaser.CANVAS,
     width: 640,
