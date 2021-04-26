@@ -2,6 +2,7 @@
 * Gabrielle Velasco
 * Rocket Modification
 * Section A
+* S(hrek) tier Game Redesign
 ***/
 let config = {
     type: Phaser.CANVAS,
