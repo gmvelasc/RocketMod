@@ -3,6 +3,7 @@
 * Rocket Modification
 * Section A
 * S(hrek) tier Game Redesign
+* This project is in-progess. So far, I completed 5 hours.
 ***/
 let config = {
     type: Phaser.CANVAS,
