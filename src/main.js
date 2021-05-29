@@ -12,8 +12,8 @@ let config = {
         parent: 'index',
         mode: Phaser.Scale.NONE,
         autoCenter: Phaser.Scale.CEMTER_BOTH,
-        width: 666,
-        height: 666,
+        width: 640,
+        height: 480,
         zoom: Phaser.Scale.MAX_ZOOM
     },
     scene: [Menu, Play]
