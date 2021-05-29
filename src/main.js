@@ -2,8 +2,8 @@
 * Gabrielle Velasco
 * Rocket Modification
 * Section A
-* S(hrek) tier Game Redesign
-* This project is in-progess. So far, I completed 5 hours.
+* Implemented Canvas UI, Changed green border to alpha
+* Altered Starfield.png
 ***/
 let config = {
     type: Phaser.autoCenter,
@@ -22,8 +22,8 @@ let config = {
 let game = new Phaser.Game(config);
 
 // set UI sizes
-let borderUISize = game.config.height / 100;
-let borderPadding = borderUISize / 300;
+let borderUISize = game.config.height / 13;
+let borderPadding = borderUISize / 4;
 
 // reserve keyboard variables
 let keyF, keyR, keyLEFT, keyRIGHT;
