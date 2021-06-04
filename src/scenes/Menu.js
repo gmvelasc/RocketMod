@@ -13,7 +13,7 @@ class Menu extends Phaser.Scene {
   }
 
   create() {
-      this.add.tileSprite(0, 0, 640, 480, 'menu').setOrigin(0, 0);
+      this.background = this.add.tileSprite(0, 0, 640, 480, 'menu').setOrigin(0, 0);
       // menu text configuration
       let menuConfig = {
           fontFamily: 'Arial',
