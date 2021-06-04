@@ -8,15 +8,16 @@ class Menu extends Phaser.Scene {
       this.load.audio('sfx_select', './assets/blip_select12.wav');
       this.load.audio('sfx_explosion', './assets/explosion38.wav');
       this.load.audio('sfx_rocket', './assets/rocket_shot.wav');
+      this.load.bitmapFont('atari', 'assets/fonts/bitmap/gem.png', 'assets/fonts/bitmap/gem.xml');
       //this.load.audio('splat.wav');
   }
 
   create() {
       // menu text configuration
       let menuConfig = {
-          fontFamily: 'Arial',
+          fontFamily: 'Courier',
           fontSize: '28px',
-          backgroundColor: '#B2B4C0',
+          backgroundColor: '#FFFFFF',
           color: '#FFFFFF',
           align: 'center',
           padding: {
@@ -26,10 +27,10 @@ class Menu extends Phaser.Scene {
           fixedWidth: 0
       }
 
-      // show menu text
+      // show menu text  
       this.add.text(game.config.width/2, game.config.height/2 - borderUISize - borderPadding, 'ROCKET PATROL', menuConfig).setOrigin(0.5);
       this.add.text(game.config.width/2, game.config.height/2, 'Use ←→ arrows to move & (F) to fire', menuConfig).setOrigin(0.5);
-
+      menuConfig.backgroundColor = '#B2B4C0';      
       this.add.text(game.config.width/2, game.config.height/2 + borderUISize + borderPadding, 'Press ← for Novice or → for Expert', menuConfig).setOrigin(0.5);
 
       // define keys
@@ -50,7 +51,7 @@ class Menu extends Phaser.Scene {
       if (Phaser.Input.Keyboard.JustDown(keyRIGHT)) {
         // Expert mode
         game.settings = {
-          spaceshipSpeed: 4,
+          spaceshipSpeed: 6,
           gameTimer: 45000    
         }
         this.sound.play('sfx_select');
