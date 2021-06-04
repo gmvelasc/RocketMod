@@ -16,7 +16,7 @@ let config = {
         height: 480,
         zoom: Phaser.Scale.MAX_ZOOM
     },
-    scene: [Menu, Play]
+    scene: [Play]
 };
 
 let game = new Phaser.Game(config);
