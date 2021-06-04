@@ -20,7 +20,7 @@ class Menu extends Phaser.Scene {
           align: 'center',
           padding: {
               top: 5,
-              bottom: 5,
+              bottom: 10,
           },
           fixedWidth: 0
       }
