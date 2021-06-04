@@ -2,8 +2,9 @@
 * Gabrielle Velasco
 * Rocket Modification
 * Section A
-* Implemented Canvas UI, Changed green border to alpha
-* Altered Starfield.png
+* Starting: Add your own (copyright-free) background music to the Play scene (5)
+* Novice: Create a new title screen (e.g., new artwork, typography, layout) (10)
+* Intermediate: Create new artwork for all of the in-game assets (rocket, spaceships, explosion) (20)
 ***/
 let config = {
     type: Phaser.autoCenter,
